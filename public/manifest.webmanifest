@@ -1,0 +1,10 @@
+{
+  "name": "Vitin7 Finance",
+  "short_name": "Vitin7",
+  "description": "Controle financeiro pessoal",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

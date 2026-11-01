@@ -1,0 +1,13 @@
+{
+  "name": "vitin7-finance",
+  "version": "3.0.1",
+  "private": true,
+  "description": "Vitin7 Finance — controle financeiro pessoal (Node.js + SQLite nativo)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check server.js && node --check src/api.js && node --check src/db.js && node --check src/config.js && node --check public/app.js && node --check public/boot.js"
+  },
+  "engines": { "node": ">=22.13.0" }
+}
